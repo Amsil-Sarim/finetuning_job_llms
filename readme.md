@@ -1,4 +1,4 @@
-Overview
+# Overview
 This repository provides a comprehensive pipeline for fine-tuning LLaMA models using two parameter-efficient techniques:
 
 LoRA (Low-Rank Adaptation): Efficient fine-tuning by adding small trainable matrices to the model
@@ -9,7 +9,7 @@ The implementation is modularized for easy customization and extension.
 
 
 
-Features
+# Features
 Supports both LoRA and QLoRA fine-tuning methods
 
 Modular architecture with separate components for configuration, data handling, model setup, and training
@@ -23,7 +23,7 @@ TensorBoard logging support
 Model checkpointing and best model saving
 
 
-Requirements
+# Requirements
 Python 3.8+
 
 PyTorch (>= 2.0.0)
@@ -41,14 +41,14 @@ Accelerate
 TensorBoard
 
 
-Installation
+# Installation
 Clone the repository:
 ```python
 git clone https://github.com/yourusername/llama-finetuning.git
 cd llama-finetuning
 ```
 
-Install dependencies:
+# Install dependencies:
 ```python
 pip install -r requirements.txt
 ```
